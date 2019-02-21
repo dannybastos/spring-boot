@@ -1,4 +1,4 @@
-FROM cantara/alpine-openjdk-jdk8
+FROM dannybastos/openjdk8
 
 MAINTAINER Danny Bastos <danny.bastos.br@gmail.com>
 
