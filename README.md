@@ -1,10 +1,18 @@
-# spring-boot
-Basic spring boot app
+# Spring-boot
 
-A very basic springboot app, with Actuator and one test using MockMvc;
+A very basic springboot app, with Actuator, Swagger and one test using MockMvc;
 
-Usage : docker-compose up -d
+## System requirements
+- docker
+- docker-compose
 
-After that you can access the app in :
+## How to run
+```
+docker-compose up -d
+```
 
-curl -v http://localhost:8080/hello/{name}
+After that you can check in :
+
+>curl -v http://localhost:8080/hello/{name}
+
+Swagger is avaliable in :

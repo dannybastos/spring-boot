@@ -16,7 +16,7 @@ public class Resource {
 	private final Logger log = LoggerFactory.getLogger(getClass());
 
 	@GetMapping(path = "hello/{name}")
-	public ResponseEntity<String> getSongById(@PathVariable("name") String name) {
+	public ResponseEntity<String> sayHello(@PathVariable("name") String name) {
 		String result = String.format("hello, %s", name);
 		log.info(result);
 		return ResponseEntity.ok(result);

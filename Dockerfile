@@ -12,4 +12,4 @@ RUN mv /app/target/spring-boot*.jar /app/spring-boot.jar
 
 EXPOSE 8888
 
-CMD ["java", "-jar", "/app/spring-boot.jar"]
+ENTRYPOINT java -jar /app/spring-boot.jar
