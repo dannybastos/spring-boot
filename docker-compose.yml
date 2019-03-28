@@ -4,3 +4,5 @@ services:
     build: .
     ports:
       - "8080:8888"
+    deploy:
+      replicas: 2
