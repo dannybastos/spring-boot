@@ -4,6 +4,6 @@ services:
     image: 127.0.0.1:5000/spring-boot-sample-app #to use a local registry
     build: .
     ports:
-      - "8080:8888"
+      - "8888:8888"
     deploy:
       replicas: 2
